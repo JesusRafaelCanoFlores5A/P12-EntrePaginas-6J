@@ -19,9 +19,9 @@ class Pantalla2 extends StatelessWidget {
             child: const Text("Regresar a la Pantalla1"),
             onPressed: () {
               Navigator.pop(context);
-            },
+            }, //Fin Onpressed
           )
-        ],
+        ], //Fin Child
       )),
     );
   }
